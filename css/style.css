@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+h3{
+    font-family: 'GothamBook';
+    font-size: 24pt;
+    letter-spacing: 1px;
+    width: 100%;
+    background: rgb(23, 160, 165);
+    padding: 15px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+#container{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container form{
+background-color: #52dfff;
+border: #040d14;
+width: 400px;
+padding: 60px;
+}
+#container form img{
+    margin: 15px auto;
+    text-align: center;
+    display: block;
+}
+#container form input{
+    display: block;
+    width: 100%;
+    font-size: 16pt;
+    padding: 5px;
+    margin: 25px auto;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+#container form input[type="submit"]{
+    background: #57cace;
+    padding: 10px;
+    color: #FFF;
+    letter-spacing: 1px;
+    border: 0;
+    cursor: pointer;
+}
+.alert{
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+text-align: center;
+}
+
